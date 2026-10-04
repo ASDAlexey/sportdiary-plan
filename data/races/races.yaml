@@ -1,0 +1,14 @@
+races:
+  - {date: 2026-10-25, name: "Октябрьский парковый забег", kind: park-5k, priority: benchmark}
+  - {date: 2026-11-29, name: "Ноябрьский парковый забег", kind: park-5k, priority: benchmark}
+  - {date: 2026-12-27, name: "Декабрьский парковый забег", kind: park-5k, priority: benchmark}
+  - {date: 2027-01-31, name: "Январский парковый забег", kind: park-5k, priority: benchmark}
+  - {date: 2027-02-28, name: "Сочи, ровная пятерка", kind: road-5k, priority: A-, target: "первая попытка < 20:00"}
+  - {date: 2027-03-28, name: "Мартовский парковый забег", kind: park-5k, priority: benchmark}
+  - {date: 2027-04-25, name: "Апрельский парковый забег", kind: park-5k, priority: A, target: "< 20:00, закрепление"}
+results:
+  - date: 2026-09-27
+    name: "Сентябрьский парковый забег"
+    kind: park-5k
+    time_s: 1284
+    note: "21:24 на ~5,1 км, кроссовый профиль; сплит 5 км 20:58 (4:12/км); трек-эквивалент ~30 с быстрее"

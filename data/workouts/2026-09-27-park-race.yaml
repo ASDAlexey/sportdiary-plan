@@ -1,0 +1,21 @@
+date: 2026-09-27
+title: Сентябрьский парковый забег
+kind: race
+source: coros-mcp
+status: done
+totals:
+  distance_km: 5.1
+  moving_time_s: 1284
+  elevation_m: 28
+  avg_hr: 181
+  max_hr: null
+structure:
+- name: забег 5,1 км
+  distance_km: 5.1
+  time_s: 1284
+  pace_s_per_km: 252
+rpe: null
+hr_zones_s: null
+notes: Итог 21:24; сплит 5 км 20:58 (4:12/км); кроссовый профиль, ~30 с тяжелее стадиона
+shoes: null
+injuries: []

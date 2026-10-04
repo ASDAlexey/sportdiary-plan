@@ -1,0 +1,17 @@
+date: 2025-04-05
+title: Беговая тренировка
+kind: easy
+source: coros-mcp
+status: done
+totals:
+  distance_km: 11.6
+  moving_time_s: 3682
+  elevation_m: null
+  avg_hr: 160
+  max_hr: null
+structure: []
+rpe: null
+hr_zones_s: null
+notes: Тип тренировки не подтверждён; спокойный бег указан предварительно.
+shoes: null
+injuries: []

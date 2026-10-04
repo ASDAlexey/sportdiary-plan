@@ -1,0 +1,44 @@
+week: 2026-W43
+monday: 2026-10-19
+phase: base
+items:
+  - id: mon
+    date: 2026-10-19
+    kind: rest
+    title: "Перелёт — отдых"
+    status: planned
+  - id: tue
+    date: 2026-10-20
+    kind: easy
+    title: "Спокойный кросс 6 км"
+    status: planned
+  - id: wed
+    date: 2026-10-21
+    kind: easy
+    title: "Спокойный кросс 7 км + 4x60 м ускорения"
+    status: planned
+  - id: thu
+    date: 2026-10-22
+    kind: session
+    title: "Групповая тренировка — записать по факту; сократить, если тяжело после отпуска"
+    status: planned
+  - id: fri
+    date: 2026-10-23
+    kind: rest
+    title: "Отдых"
+    status: planned
+  - id: sat
+    date: 2026-10-24
+    kind: rest
+    title: "Отдых — горки пропускаем, завтра забег"
+    status: planned
+  - id: sun
+    date: 2026-10-25
+    kind: race
+    title: "Октябрьский парковый забег — бенчмарк"
+    structure:
+      - {name: разминка, distance_km: 2.0}
+      - {name: "забег ~5 км", note: "ровный темп или лёгкий негативный сплит"}
+      - {name: заминка, distance_km: 2.0}
+    status: planned
+notes: "Возврат из отпуска, втягивание, первый бенчмарк новой системы 25.10. Задача на забег: честная работа, не пик формы — записать сплиты и пульс, это новая точка отсчёта."

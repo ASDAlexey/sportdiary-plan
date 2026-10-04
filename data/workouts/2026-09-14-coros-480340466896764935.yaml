@@ -1,0 +1,41 @@
+date: 2026-09-14
+title: Тест бегового уровня Coros
+kind: session
+source: coros-mcp
+status: done
+totals:
+  distance_km: 11.07
+  moving_time_s: 3287
+  elevation_m: 6
+  avg_hr: 162
+  max_hr: 190
+structure:
+- name: Этап теста 1
+  distance_km: 1.33044
+  time_s: 300
+  pace_s_per_km: 226
+- name: Этап теста 2
+  distance_km: 5.36233
+  time_s: 1500
+  pace_s_per_km: 280
+- name: Этап теста 3
+  distance_km: 0.6219
+  time_s: 180
+  pace_s_per_km: 289
+- name: Этап теста 4
+  distance_km: 0.70415
+  time_s: 180
+  pace_s_per_km: 256
+- name: Этап теста 5
+  distance_km: 1.07222
+  time_s: 300
+  pace_s_per_km: 280
+- name: Этап теста 6
+  distance_km: 1.98042
+  time_s: 827
+  pace_s_per_km: 417
+rpe: null
+hr_zones_s: null
+notes: 'fitness-test: тест уровня Coros.'
+shoes: null
+injuries: []

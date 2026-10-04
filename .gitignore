@@ -1,22 +1,27 @@
-.vscode
+# IDE / OS
 .idea
+.vscode
 .DS_Store
-# Override global gitignore — track these in this repo
+
+# local-only data: raw watch/Strava exports with GPS, health dumps
+raw/
+data/health/
+
+# rust
+target/
+
+# site
+site/node_modules
+site/.next
+site/out
+
+# env
+.env
+.env.*
+
+# override global gitignore — this repo tracks its agent config
 !CLAUDE.md
-!*/.claude/
-!base/push-one-by-one.sh
-# The global review/ ignore is for project reports, not this reusable skill.
-!codex/skills/review/
-!codex/skills/review/**
-!codex/variants/**/review/
-!codex/variants/**/review/**
-
-# приезжает слоем base в корень самого хаба
-/push-one-by-one.sh
-
-# the label page holds code of work repositories; labels.json is only its export before label-import
-/training-data/merge-conflicts/bench/label.html
-/training-data/merge-conflicts/bench/labels.json
-
-# Angular build cache
-/.angular/
+!AGENTS.md
+!.mcp.json
+!.claude
+!.claude/**

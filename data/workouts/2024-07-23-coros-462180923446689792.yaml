@@ -1,0 +1,17 @@
+date: 2024-07-23
+title: Беговая тренировка
+kind: session
+source: coros-mcp
+status: done
+totals:
+  distance_km: 0.964
+  moving_time_s: 248
+  elevation_m: null
+  avg_hr: 175
+  max_hr: null
+structure: []
+rpe: null
+hr_zones_s: null
+notes: ''
+shoes: null
+injuries: []

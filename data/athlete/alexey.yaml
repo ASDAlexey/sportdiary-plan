@@ -1,0 +1,68 @@
+name: Alexey
+location: {city: Taganrog, region: Rostov Oblast, country: Russia, note: "юг, зимы мягче московских"}
+resting_hr: 59
+max_hr: 208
+threshold_hr: 187
+threshold_pace_s_per_km: 260
+hr_zones:
+  recovery:            {low: 0,   high: 149}
+  aerobic_endurance:   {low: 150, high: 168}
+  aerobic_power:       {low: 169, high: 178}
+  threshold:           {low: 179, high: 191}
+  anaerobic_endurance: {low: 192, high: 198}
+  anaerobic_power:     {low: 199, high: 208}
+hr_zones_source: "Coros EvoLab, пороговые зоны, снимок 04.10.2026"
+evolab_snapshot_2026-10-04:
+  base_fitness: 58
+  load_trend: 31
+  intensity_trend: 53
+  recovery: 100
+  running_form: 87.2
+  race_predictions:
+    5k: "20:43"
+    10k: "42:53"
+    half: "1:35:30"
+    marathon: "3:20:01"
+prs:
+  - {distance_km: 1, time_s: 216, date: 2026-09-14}    # 3:36
+  - {distance_km: 3, time_s: 751, date: 2026-09-27}    # 12:31
+  - {distance_km: 5, time_s: 1258, date: 2026-09-27}   # 20:58, сплит в парковом забеге
+weekly_template:
+  mon: {slot: quality, controlled: true, note: "главная управляемая тренировка обычно здесь"}
+  tue: {slot: secondary, controlled: true, note: "или главная, если Пн сдвинулась"}
+  wed: {slot: easy-am, controlled: true}
+  thu: {slot: quality-group, controlled: false, note: "всегда самая тяжелая тренировка недели"}
+  fri: {slot: easy-am, controlled: true, note: "8–10 км очень спокойно вместе с женой; уточнено 04.10.2026"}
+  sat: {slot: hills-group, controlled: false, note: "приличные горки, чуть легче Чт"}
+  sun: {slot: rest, controlled: true, note: "всегда выходной; последнее воскресенье месяца — забег"}
+training_preferences:
+  proven_sessions:          # исторически дают лучший прогресс на 5 км — основное меню
+    - "3x2 км"
+    - "5x1000 м"
+    - "12x400 м"
+    - "наборы 400/600/800 м суммарно ~5 км"
+  winter: "зимой отлично работают фартлеки от 1/1 до 6/6 мин"
+  short_pickups: "нравятся короткие 15-секундные ускорения, даже просто в разминке"
+  likes: разнообразие в длине отрезков
+ice_fallback: "если дома (Таганрог) на недели встанет гололед — исключительный откат в зал на месяц; в 2027 надеются обойтись Сочи; сборы в Сочи с начала февраля (возможен дождь, но без льда)"
+guardrails:
+  max_weekly_volume_growth: 1.10
+  max_controlled_quality_days: 3
+  max_strides_days: 2
+injury_history:
+  - region: back
+    status: recovered-2026-10
+    note: "потянул спину вне бега в конце сентября, ~неделя без бега; отошла к 03.10.2026, с ногой не связано"
+  - region: heel
+    status: caution
+    note: "напрягается на быстрой спринтовой работе; ускорения только по мягкой ровной поверхности и не в максимум; в кроссовках Li-Ning легче"
+  - region: knee
+    status: historical
+    note: "срывалось на блоках 120-150 км/нед"
+shoes:
+  - {id: lining-x9, brand: Li-Ning, model: TBD, status: current}
+onboarding_open:
+  - уточнить модель кроссовок Li-Ning
+baseline_weekly_volume_km: 63.54
+baseline_weekly_volume_note: "Среднее трёх полных недель до паузы: 07–27.09.2026 (62,891 / 59,750 / 67,980 км). Исторический ориентир, не целевой объём первой недели возвращения."
+fitness_test_reference: 2026-09-14-coros-480340466896764935

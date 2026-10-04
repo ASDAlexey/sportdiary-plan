@@ -1,0 +1,40 @@
+week: 2026-W42
+monday: 2026-10-12
+phase: deload
+items:
+  - id: mon
+    date: 2026-10-12
+    kind: easy
+    title: "Спокойный кросс 8-10 км утром, Z1-Z2"
+    status: planned
+  - id: tue
+    date: 2026-10-13
+    kind: rest
+    title: "Отдых или 20-30 мин лёгкой пробежки"
+    status: planned
+  - id: wed
+    date: 2026-10-14
+    kind: easy
+    title: "Спокойный кросс 8-10 км утром, Z1-Z2"
+    status: planned
+  - id: thu
+    date: 2026-10-15
+    kind: rest
+    title: "Отдых"
+    status: planned
+  - id: fri
+    date: 2026-10-16
+    kind: easy
+    title: "Спокойный кросс 8-10 км + 4x60 м расслабленные ускорения"
+    status: planned
+  - id: sat
+    date: 2026-10-17
+    kind: easy
+    title: "Спокойный кросс 8-10 км утром"
+    status: planned
+  - id: sun
+    date: 2026-10-18
+    kind: rest
+    title: "Выходной или короткая пробежка"
+    status: planned
+notes: "Отпуск в Египте 10-19 октября. Только лёгкие утренние пробежки, не каждый день, всё по самочувствию, пульс Z1-Z2 (жара). Пропускать без угрызений. Без групповых тренировок и без качества."

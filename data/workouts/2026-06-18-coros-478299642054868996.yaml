@@ -1,0 +1,17 @@
+date: 2026-06-18
+title: Беговая тренировка
+kind: session
+source: coros-mcp
+status: done
+totals:
+  distance_km: 5.88
+  moving_time_s: 1866
+  elevation_m: null
+  avg_hr: 158
+  max_hr: null
+structure: []
+rpe: null
+hr_zones_s: null
+notes: ''
+shoes: null
+injuries: []
