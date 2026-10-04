@@ -40,11 +40,10 @@ cd site && pnpm install
 
 ## Публикация
 
-- GitHub: создать **публичный** репозиторий, запушить, включить Pages (Source: GitHub Actions).
+- GitHub: создать **публичный** репозиторий, запушить ветку `main`, включить
+  Settings → Pages → Source: GitHub Actions.
   Workflow в `.github/workflows/site.yml` собирает и публикует `site/` на каждый пуш в `main`.
-  Бесплатно.
-- GitLab: зеркалировать репозиторий; `.gitlab-ci.yml` публикует `site/` через GitLab Pages.
-  Бесплатно.
+  Бесплатно. Статус публикации виден во вкладке Actions, адрес сайта — в Settings → Pages.
 - Переименование репозитория: локально чинить нечего — CI сам передает имя репозитория как
   `NEXT_PUBLIC_BASE_PATH`.
 
