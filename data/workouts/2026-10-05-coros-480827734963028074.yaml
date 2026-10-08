@@ -1,0 +1,17 @@
+date: 2026-10-05
+title: Короткий бег после основного кросса
+kind: easy
+source: coros-mcp
+status: done
+totals:
+  distance_km: 0.479
+  moving_time_s: 181
+  elevation_m: 0
+  avg_hr: 140
+  max_hr: null
+structure: []
+rpe: null
+hr_zones_s: null
+notes: "Отдельная запись Coros вскоре после основного кросса: 479 м за 3:01, средний пульс 140. Назначение отрезка не уточнено."
+shoes: null
+injuries: []
