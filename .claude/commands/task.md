@@ -1,0 +1,1 @@
+/Users/alexeypopov/Desktop/projects/claude/base/.claude/commands/task.md
