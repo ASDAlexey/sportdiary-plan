@@ -1,0 +1,19 @@
+date: 2026-10-24
+title: Короткая запись COROS — требует уточнения
+kind: easy
+source: coros-mcp
+status: done
+totals:
+  distance_km: 0.01
+  moving_time_s: 244
+  elevation_m: null
+  avg_hr: 128
+  max_hr: null
+structure: []
+rpe: null
+hr_zones_s: null
+notes: "COROS: 10 м за 4:04, средний пульс 128. Назначение неизвестно: возможна
+  техническая запись или пауза. Пока сохранена отдельно и входит в сумму
+  импортированных активностей; не считать самостоятельной качественной работой."
+shoes: null
+injuries: []
